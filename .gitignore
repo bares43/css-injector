@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Build directory
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Editor and IDE folders (customize as needed)
+.vscode/
+.idea/

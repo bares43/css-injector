@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Injector Settings</title>
+    <style>
+      body { font-family: sans-serif; margin: 20px; }
+      label { display: block; margin: 10px 0 5px; }
+      input, textarea { width: 100%; padding: 5px; margin-bottom: 10px; box-sizing: border-box; }
+      button { padding: 8px 14px; margin-top: 10px; }
+      .ruleRow {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .ruleRow label { margin-top: 5px; }
+      .checkboxContainer {
+        display: flex;
+        align-items: center;
+      }
+      .checkboxContainer label {
+        margin: 0 5px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Domain-Specific Custom Styles</h1>
+    <!-- Container where rule rows will be added dynamically -->
+    <div id="customRulesContainer"></div>
+    <button id="addRuleButton" type="button">Add Rule</button>
+    
+    <br>
+    <button id="saveButton" type="button">Save Settings</button>
+    
+    <script src="options.js"></script>
+  </body>
+</html>
