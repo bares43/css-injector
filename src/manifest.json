@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "CSS Injector",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Injects custom CSS.",
   "browser_action": {
     "default_icon": "icon.png",
